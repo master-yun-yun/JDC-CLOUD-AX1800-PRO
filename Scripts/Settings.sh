@@ -1,5 +1,3 @@
-Scripts/Settings.sh
-
 #!/bin/bash
 
 #修改默认主题
