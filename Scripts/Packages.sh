@@ -88,7 +88,7 @@ UPDATE_PACKAGE "luci-app-pushbot" "zzsj0928/luci-app-pushbot" "master"
 #关机poweroff
 UPDATE_PACKAGE "luci-app-poweroff" "DongyangHu/luci-app-poweroff" "main"
 #阿里云盘aliyundrive-webdav
-UPDATE_PACKAGE "luci-app-aliyundrive-webdav" "messense/aliyundrive-webdav" "main"
+#UPDATE_PACKAGE "luci-app-aliyundrive-webdav" "messense/aliyundrive-webdav" "main"
 #主题界面edge
 UPDATE_PACKAGE "luci-theme-edge" "ricemices/luci-theme-edge" "master"
 #分区扩容
