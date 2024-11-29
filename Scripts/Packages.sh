@@ -93,3 +93,5 @@ UPDATE_PACKAGE "luci-app-poweroff" "DongyangHu/luci-app-poweroff" "main"
 UPDATE_PACKAGE "luci-theme-edge" "ricemices/luci-theme-edge" "master"
 #分区扩容
 UPDATE_PACKAGE "luci-app-partexp" "sirpdboy/luci-app-partexp" "main"
+#多端网盘-alist
+UPDATE_PACKAGE "luci-app-alist" "sbwml/luci-app-alist" "main" "pkg"
