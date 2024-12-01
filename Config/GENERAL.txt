@@ -87,6 +87,10 @@ CONFIG_PACKAGE_luci-lib-ipkg=y
 CONFIG_PACKAGE_luci-lua-runtime=y
 CONFIG_PACKAGE_wpad-openssl=y
 #自行增加的插件及组件
+CONFIG_PACKAGE_fuse-utils=y
+CONFIG_PACKAGE_fuse3-utils=y
+CONFIG_PACKAGE_libfuse1=y
+CONFIG_PACKAGE_ibfuse3-3=y
 #补全linux系统管理指令
 CONFIG_PACKAGE_sudo=y
 #DDNS依赖
