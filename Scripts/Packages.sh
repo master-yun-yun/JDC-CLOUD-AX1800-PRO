@@ -31,6 +31,7 @@ UPDATE_PACKAGE "passwall" "xiaorouji/openwrt-passwall" "main" "pkg"
 UPDATE_PACKAGE "ssr-plus" "fw876/helloworld" "master"
 
 UPDATE_PACKAGE "alist" "sbwml/luci-app-alist" "main"
+UPDATE_PACKAGE "luci-app-alist" "sbwml/luci-app-alist" "main"
 UPDATE_PACKAGE "mosdns" "sbwml/luci-app-mosdns" "v5"
 UPDATE_PACKAGE "vnt" "lazyoop/networking-artifact" "main" "pkg"
 UPDATE_PACKAGE "easytier" "lazyoop/networking-artifact" "main" "pkg"
@@ -47,6 +48,8 @@ UPDATE_PACKAGE "luci-app-poweroff" "DongyangHu/luci-app-poweroff" "main"
 UPDATE_PACKAGE "luci-theme-edge" "ricemices/luci-theme-edge" "master"
 #分区扩容
 UPDATE_PACKAGE "luci-app-partexp" "sirpdboy/luci-app-partexp" "main"
+#阿里云盘aliyundrive-webdav
+UPDATE_PACKAGE "luci-app-aliyundrive-webdav" "messense/aliyundrive-webdav" "main"
 
 if [[ $WRT_REPO != *"immortalwrt"* ]]; then
 	UPDATE_PACKAGE "qmi-wwan" "immortalwrt/wwan-packages" "master" "pkg"
